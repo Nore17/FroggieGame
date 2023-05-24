@@ -8,18 +8,19 @@ TagManager:
   - Destroy
   - Mirror
   - Enemy
+  - Object
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PlayerLayer
   - Water
   - UI
-  - 
-  - 
-  - Blue
   - Grappable
   - 
+  - Blue
+  - Walls/Floors/Platforms
+  - Background
   - 
   - 
   - 
@@ -44,4 +45,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Mushrooms
+    uniqueID: 3520669233
+    locked: 0
+  - name: Walls/Floors/Platforms
+    uniqueID: 2953694131
+    locked: 0
+  - name: Background
+    uniqueID: 2492939951
     locked: 0
